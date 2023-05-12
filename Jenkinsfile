@@ -27,7 +27,7 @@ node{
    sh "docker login -u admin -p admin123 3.94.52.168:8083"
    sh "docker tag imfuzail/myweb:0.0.2 3.94.52.168:8083/fa:1.0.0"
    sh 'docker push 3.94.52.168:8083/fa:1.0.0'
-
+	   
    }
    
    stage('Remove Previous Container'){
